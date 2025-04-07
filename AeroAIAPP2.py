@@ -5,7 +5,7 @@ import re  # For text formatting
 from PIL import Image, ImageTk  # To add an icon
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyDbIgzhjCHhUIngbwrZ_inB4HhTK5ghlSM")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Function to send a message
